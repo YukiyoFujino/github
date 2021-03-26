@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>ポートフォリオ</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+ <header class="header">
+ 	<p class="site-title-sub">My first portfolio</p>
+ 	<h1 class="site-title">Hi, MY NAME IS...</h1>
+ 	<p class="site-description">Check out some of my works.</p>
+ 	<div class="buttons">
+ 		<a class="button" href="https://www.instagram.com/yukiyofujino">Instagram</a>
+ 		<a class="button button-showy" href="https://twitter.com/sagarifuji0219">twitter</a>
+ 	</div>
+ </header>
+ <section class="about" id="about">
+ 	<h2 class="heading">ABOUT ME</h2>
+ 	<p class="about-text">
+ 		はじめまして。オブジェクティブコード所属の藤野です。<br>
+ 		調理師の専門学校を卒業し、飲食店で長年勤務していましたが、30代は苦手な事にチャレンジしようとIT業界に飛び込みました。<br>
+ 		コールセンターで4年半働いたので、フローやテンプレート作成はお任せください！<br>
+ 	</p>
+ 	<p class="about-text">
+ 		現在、UiPathやPythonを勉強中です。<br>
+ 		自身の理解が深まってきたら、実際に使えるツールを作成したり、教育にもチャレンジしていきたいです。<br>
+ 	 </p>
+ </section>
+ <section class="works">
+ 	<h2 class="heading">WORKS</h2>
+ 	<div class="work-box">
+ 		<img class="work-image" src="images/RPAMEDIA.jpg" alt="現在対応中">
+ 		<p class="work-text">
+ 			RPA MEDIA<br>
+ 			初心者でも15分で分かるUipath!!<br>
+ 			企画立案と検証をしています。<br>
+ 			<a href="https://media-rpa.com/15min_uipath-01/" class="button">READ MORE</a>
+ 		</p>	
+ 	</div>
+ 	<div class="work-box">
+ 		<img class="work-image" src="images/Robotmart.jpg" alt="過去事例">
+ 		<p class="work-text">
+ 			ロボットマート<br>
+ 			コールセンターの品質改善を実施<br>
+ 			マニュアル・フロー・テンプレート作成<br>
+ 			<a href="https://robotmart.jp/" class="button">READ MORE</a>
+ 		</p>	
+ 	</div>
+ </section>
+ <section class="contact" id="contact">
+ </section>
+ <footer class="footer">
+ </footer>
+
+</body>
