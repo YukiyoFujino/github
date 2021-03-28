@@ -1,0 +1,111 @@
+
+html {
+  background-color: #f1e3cf;
+}
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 35px;
+}
+h1,h2,h3,h4,h5 {
+  color: #e7a832;
+  font-size: 67px;
+  margin: auto 325px;
+  width: 25px;
+}
+.Yellow {
+  position: relative;
+    }
+.Yellow p {
+  position: absolute;
+  color: #e7a832
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family :Quicksand, sans-serif;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+.Yellow img {
+  width: 100%;
+}
+.profile {
+  border-radius: 50%;
+  width:  182.5px;
+  height: 182.5px;
+  /* 寄せ */
+  margin-left: 325px;
+}
+.profile-sentence {
+  font-size: 20px;
+  color:chocolate;
+  text-align：left;
+}
+/* 寄せ */
+.Skill, .Qualification-margin, .Contact {
+  margin-left: 325px;
+}
+.circle {
+  display: inline-block;
+  width: 180.5px;
+  height: 180.5px;
+  border-radius: 50%;
+  background: #dfbc4a;
+  text-align:center;
+  line-height: 180.5px;
+  font-size: 20px;
+}
+.Qualification {
+  color: black;
+  display: inline-block;
+  width: 180.5px;
+  height: 180.5px;
+  border-radius: 50%;
+  background: #4ad5df;
+  text-align:center;
+  line-height: 180.5px;
+  font-size: 20px;
+}
+.workname1,.workname3 {
+display: inline-block;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background: #dfbc4a;
+text-align:center;
+line-height: 200px;
+font-size: 20px;
+margin-left: 325px;
+}
+.workname2,.workname4 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #eecf67;
+  text-align:center;
+  line-height: 200px;
+  font-size: 20px;
+  margin-left: 325px;
+  }
+.workname1-sentence ,.workname2-sentence ,.workname3-sentence ,.workname4-sentence {
+  font-size: 20px;
+  color:black;
+  text-align：left;
+}
+.SNS {
+display: inline-block;
+width: 180.5px;
+height: 180.5px;
+border-radius: 50%;
+background: hsl(47, 4%, 57%);
+text-align:center;
+line-height: 180.5px;
+font-size: 20px;
+}
